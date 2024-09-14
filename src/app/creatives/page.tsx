@@ -61,7 +61,7 @@ export default function Creatives() {
     >
       <SwiperSlide>
             <div className="relative creativeHover flex justify-center items-center overflow-hidden w-[22rem] h-[22rem]">
-                <Image  className="w-full absolute top-0 h-full object-fill " src={'/images/creatives/Food&Beverages.svg'} width={100} height={250} alt="individual" />
+                <Image priority className="w-full absolute top-0 h-full object-fill " src={'/images/creatives/Food&Beverages.svg'} width={100} height={250} alt="individual" />
                 
                 <div className="absolute   bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
                 <a href="#food" className={`${italiana.className} cursor-pointer text-4xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
@@ -73,7 +73,7 @@ export default function Creatives() {
             </div>
         </SwiperSlide>
       <SwiperSlide><div className="relative creativeHover overflow-hidden flex justify-center items-center w-[22rem] h-[22rem]">
-                        <Image  className="w-full absolute top-0 h-full object-fill " src={'/images/creatives/Fashion.svg'} width={100} height={250} alt="individual" />
+                        <Image priority className="w-full absolute top-0 h-full object-fill " src={'/images/creatives/Fashion.svg'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute   bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
                         <a href="#fashion" className={`${italiana.className} cursor-pointer text-4xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
@@ -83,7 +83,7 @@ export default function Creatives() {
                 </div>
                     </div></SwiperSlide>
       <SwiperSlide><div className="relative creativeHover overflow-hidden flex justify-center items-center w-[22rem] h-[22rem]">
-                        <Image  className="w-full absolute top-0 h-full object-fill " src={'/images/creatives/Corporate.svg'} width={100} height={250} alt="individual" />
+                        <Image priority className="w-full absolute top-0 h-full object-fill " src={'/images/creatives/Corporate.svg'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute  top-0  bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
                         <a href="#corporate"  className={`${italiana.className} cursor-pointer text-4xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
@@ -103,7 +103,7 @@ export default function Creatives() {
                 </div>
                     </div></SwiperSlide> */}
                     <SwiperSlide><div className="relative creativeHover overflow-hidden flex justify-center items-center w-[22rem] h-[22rem]">
-                        <Image  className="w-full absolute top-0 h-full object-fill " src={'/images/newhome/Isuzu Main.svg'} width={100} height={250} alt="individual" />
+                        <Image priority className="w-full absolute top-0 h-full object-fill " src={'/images/newhome/Isuzu Main.svg'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute  top-0  bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
                         <a href="#automotive" className={`${italiana.className} cursor-pointer text-4xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
@@ -126,19 +126,19 @@ export default function Creatives() {
                     <div className="flex flex-wrap justify-start gap-4">
                       
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/01.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/01.svg'} width={100} height={250} alt="individual" />
                             </div>
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/02.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/02.svg'} width={100} height={250} alt="individual" />
                             </div>
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/03.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/03.svg'} width={100} height={250} alt="individual" />
                             </div>
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/04.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/04.svg'} width={100} height={250} alt="individual" />
                             </div>
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/05.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/05.svg'} width={100} height={250} alt="individual" />
                             </div>
                            
                         
@@ -150,19 +150,19 @@ export default function Creatives() {
                     </div>
                     <div className="flex flex-wrap justify-start gap-4">
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/creatives/Fashion/01.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/creatives/Fashion/01.svg'} width={100} height={250} alt="individual" />
                             </div>
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/creatives/Fashion/02.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/creatives/Fashion/02.svg'} width={100} height={250} alt="individual" />
                             </div>
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/creatives/Fashion/03.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/creatives/Fashion/03.svg'} width={100} height={250} alt="individual" />
                             </div>
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/creatives/Fashion/04.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/creatives/Fashion/04.svg'} width={100} height={250} alt="individual" />
                             </div>
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/newhome/Dezine N Rungs.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/newhome/Dezine N Rungs.svg'} width={100} height={250} alt="individual" />
                             </div>
                     </div>
 
@@ -172,19 +172,19 @@ export default function Creatives() {
                     </div>
                     <div className="flex flex-wrap justify-start gap-4">
                     <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/creatives/Corporate/01.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/creatives/Corporate/01.svg'} width={100} height={250} alt="individual" />
                             </div>
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/creatives/Corporate/02.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/creatives/Corporate/02.svg'} width={100} height={250} alt="individual" />
                             </div>
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/creatives/Corporate/03.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/creatives/Corporate/03.svg'} width={100} height={250} alt="individual" />
                             </div>
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/creatives/Corporate/04.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/creatives/Corporate/04.svg'} width={100} height={250} alt="individual" />
                             </div>
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/newhome/Corporate pic 5.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/newhome/Corporate pic 5.svg'} width={100} height={250} alt="individual" />
                             </div>
                             
                     </div>
@@ -214,13 +214,13 @@ export default function Creatives() {
                     </div>
                     <div className="flex flex-wrap justify-start gap-4">
                     <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/newhome/Auto M 2.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/newhome/Auto M 2.svg'} width={100} height={250} alt="individual" />
                             </div>
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/newhome/bd3e0d207738401.66e2c2e8905d7.gif'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/newhome/bd3e0d207738401.66e2c2e8905d7.gif'} width={100} height={250} alt="individual" />
                             </div>
                             <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image  className="w-full h-full object-cover " src={'/images/newhome/Auto M 1.svg'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/newhome/Auto M 1.svg'} width={100} height={250} alt="individual" />
                             </div>
                     </div>
 
