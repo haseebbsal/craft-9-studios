@@ -1,0 +1,54 @@
+
+
+/* .test *{
+    color: #b7ff00 !important;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: telegraf;
+    src: url('/fonts/PPTelegraf-Regular.otf');
+  }
+
+  @font-face {
+    font-family: garet;
+    src: url('/fonts/Garet-Book.ttf');
+  }
+
+.telegraf{
+    font-family: telegraf;
+}
+
+.garet{
+    font-family: garet;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: black !important;
+}
+
+.carousel-container {
+    width: 100% !important;
+}
+
+.creativeHover > div{
+    transform: translateY(100%);
+    visibility: hidden;
+    display: flex;
+    /* width: 200px; */
+    transition: all 0.5s !important;
+}
+
+.creativeHover:hover > div{
+    /* display: flex !important; */
+    visibility: visible;
+    /* width: 1000px; */
+    transform: translateY(0%) !important;
+}
+
+
