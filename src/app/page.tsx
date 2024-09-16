@@ -142,7 +142,7 @@ export default function Home() {
         <div>
           <h2 className="telegraf text-2xl text-end pr-4">Paid Ads Funnel</h2>
           <div className="w-full border-4 border-color-1">
-          <video  className="w-full sm:h-[40rem] object-cover  " muted autoPlay playsInline loop>
+          <video  className="w-full sm:h-[40rem] object-cover  " controls >
                 <source src={`/images/newhome/Banner 3.mp4`} type="video/mp4" />
             </video>
           </div>

@@ -2,6 +2,7 @@
 import { Button, Dropdown, DropdownItem, DropdownMenu, DropdownTrigger } from "@nextui-org/react";
 import { Lato } from "next/font/google";
 import Image from "next/image";
+import { IoLogoInstagram } from "react-icons/io5";
 const latoFont=Lato({
     weight:"700",
     subsets:['latin']
@@ -18,7 +19,7 @@ export default function Navbarr() {
         <>
         <div className={`bg-[#19012b] ${latoFont.className} relative text-[#c1ff72] text-lg test px-16 border-b-2 border-[#c1ff72] pt-4 pb-2 relative hidden sm:flex sm:justify-end  w-[100vw]`}>
             <div></div>
-            <div className="flex gap-4 flex-wrap items-end">
+            <div className="flex gap-4 flex-wrap items-center">
                 <Link href={'/creatives'}>Creative Work</Link>
 
                 <Dropdown classNames={{content:"!bg-transparent"}}>
@@ -41,11 +42,11 @@ export default function Navbarr() {
                 </Dropdown>
                 {/* <Link href={'/creatives'}>Case Studies</Link> */}
                 <Link href={'/creatives'}>About Us</Link>
-                <Link href={'/creatives'}>Contact Us</Link>
-                <Button className="text-[#19012b] bg-[#c1ff72] box-border text-lg p-4 rounded-none ">Get A Quote</Button>
+                <Link className=" border-2 border-color-1 p-2" href={'/contact'}>Get A Quote</Link>
+                <a target="_blank" href="https://www.instagram.com/thedigital_dhaba?igsh=MTBzdzR3djFqN2xrYw==" style={{background:"linear-gradient(115deg, rgb(249, 206, 52), rgb(238, 42, 123), rgb(98, 40, 215))"}} className="text-[#19012b] flex gap-2 items-center box-border text-lg p-[0.6rem] rounded-none "> <IoLogoInstagram className="text-2xl"/> The Digital Dhaba</a>
             </div>
             <Link href={'/'} className="w-[6rem] block h-[6rem] absolute top-[25%] left-[5%]">
-                <Image className="h-full w-full object-contain" src={'/images/loader/Craft 9 (White).svg'} alt="logo" width={100} height={100}/>
+                <Image className="h-full w-full object-contain" src={'/images/loader/Craft 9 Studios Website Logo.svg'} alt="logo" width={100} height={100}/>
             </Link>
         </div>
 
@@ -55,7 +56,7 @@ export default function Navbarr() {
             </div>
             <div className="w-[90%] flex justify-center">
             <Link href={'/'} className="w-[6rem] h-[6rem] ">
-                <Image className="h-full w-full object-contain" src={'/images/loader/Craft 9 (White).svg'} alt="logo" width={100} height={100}/>
+                <Image className="h-full w-full object-contain" src={'/images/loader/Craft 9 Studios Website Logo.svg'} alt="logo" width={100} height={100}/>
             </Link >
             </div>
         </div>
@@ -64,7 +65,7 @@ export default function Navbarr() {
             <div className="bg-[#19012b] w-1/2 h-full flex flex-col items-center gap-8 p-4">
             <div className="w-full flex justify-center">
             <Link href={'/'} className="w-[6rem] block h-[6rem] ">
-                <Image className="h-full w-full object-contain" src={'/images/loader/Craft 9 (White).svg'} alt="logo" width={100} height={100}/>
+                <Image className="h-full w-full object-contain" src={'/images/loader/Craft 9 Studios Website Logo.svg'} alt="logo" width={100} height={100}/>
             </Link>
             </div>
             <div className="flex flex-col gap-4 items-center">
@@ -88,8 +89,8 @@ export default function Navbarr() {
                     </DropdownMenu>
                 </Dropdown>
                 <Link href={'/creatives'}>About Us</Link>
-                <Link href={'/creatives'}>Contact Us</Link>
-                <Button className="text-[#19012b] bg-[#c1ff72] box-border text-lg p-4 rounded-none ">Get A Quote</Button>
+                <Link className=" border-2 border-color-1 p-2" href={'/contact'}>Get A Quote</Link>
+                <a target="_blank" href="https://www.instagram.com/thedigital_dhaba?igsh=MTBzdzR3djFqN2xrYw==" style={{background:"linear-gradient(115deg, rgb(249, 206, 52), rgb(238, 42, 123), rgb(98, 40, 215))"}} className="text-[#19012b] flex gap-1 items-center box-border text-lg p-[0.6rem] rounded-none "> <IoLogoInstagram className="text-2xl"/> The Digital Dhaba</a>
             </div>
             </div>
         </div>

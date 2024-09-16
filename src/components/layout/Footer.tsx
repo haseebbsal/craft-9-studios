@@ -35,11 +35,11 @@ export default function Footer() {
                 <div className="flex flex-col text-color-1 gap-2">
                     <div className="flex items-center gap-2">
                         <MdLocationOn className="text-2xl p-1 border-2 border-color-1 rounded-full"/>
-                        <p className="text-lg">D-38, Block 5, Clifton, Karachi</p>
+                        <p className="text-lg"><a target="_blank" href="https://www.google.com/maps/search/?api=1&query=D-38,Block 5,Clifton,Karachi">D-38, Block 5, Clifton, Karachi</a></p>
                     </div>
                     <div className="flex items-center gap-2">
                         <IoCall className="text-2xl p-1 border-2 border-color-1 rounded-full"/>
-                        <p className="text-lg">+92 335 3189762 +92 330 2447474</p>
+                        <p className="text-lg"><a target="_blank" href="https://wa.me/+923353189762">+92 335 3189762</a> <a target="_blank" href="https://wa.me/+923042602338">+92 304 2602338</a></p>
                     </div>
                 </div>
             </div>
