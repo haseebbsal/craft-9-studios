@@ -38,7 +38,7 @@ export default function Creatives() {
                 <div className="flex text-white gap-4">
                 
       <Swiper
-      className="!px-4"
+      className=""
       navigation={true} modules={[Navigation]}
       spaceBetween={0}
       slidesPerView={1}

@@ -6,6 +6,7 @@ import Footer from "@/components/layout/Footer";
 import Loader from "@/components/layout/Loader";
 import UiProvider from "@/providers/UiProvider";
 import Navbarr from "@/components/layout/Navbar";
+import AnimatedCursor from "react-animated-cursor";
 // import "react-multi-carousel/lib/styles.css";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +33,28 @@ export default function RootLayout({
           <Loader/>
         </div>
         </UiProvider>
+        <AnimatedCursor
+      innerSize={15}
+      outerSize={15}
+      color='255,255,255'
+      outerAlpha={0.5}
+      innerScale={1}
+      outerScale={5}
+      innerStyle={{visibility:'hidden'}}
+      showSystemCursor={true}
+      outerStyle={{border:"2px solid white" ,backgroundColor:'transparent'}}
+      clickables={[
+        'a',
+        'img',
+        'video',
+        'input',
+        'label',
+        'select',
+        'textarea',
+        'button',
+        '.link'
+      ]}
+    />
       </body>
     </html>
   );

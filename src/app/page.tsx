@@ -123,22 +123,26 @@ export default function Home() {
 
         <div>
           <h2 className="telegraf text-2xl text-end pr-4">Brand Logo To Key Visuals</h2>
-          <div className="w-full border-4 border-color-1">
-          <Image priority className="w-full h-full object-contain" src={'/images/newhome/Banner 1 (Landing Page).svg'} alt="first" width={400} height={400}/>
+          <div style={{background:"url('/images/newhome/banner/Background.svg')",backgroundSize:"contain"}} className="w-full flex justify-center items-center border-4 border-color-1">
+          <div className="sm:h-[40rem] w-full">
+          <Image priority className="w-full h-full object-contain" src={'/images/newhome/banner/Phones.svg'} alt="first" width={400} height={400}/>
+          </div>
           </div>
         </div>
 
         <div>
           <h2 className="telegraf text-2xl text-end pr-4">Brand Creatives</h2>
-          <div className="w-full border-4 border-color-1">
-          <Image priority className="w-full h-full object-contain" src={'/images/newhome/Banner 2 (Landing Page).svg'} alt="first" width={400} height={400}/>
+          <div style={{background:"url('/images/newhome/banner/Banner 2 BG.svg')",backgroundSize:"contain"}} className="w-full flex justify-center items-center border-4 border-color-1">
+          <div className="sm:h-[40rem] w-full">
+          <Image priority className="w-full h-full object-contain" src={'/images/newhome/banner/Banner 2 Pics.svg'} alt="first" width={400} height={400}/>
+          </div>
           </div>
         </div>
 
         <div>
           <h2 className="telegraf text-2xl text-end pr-4">Paid Ads Funnel</h2>
           <div className="w-full border-4 border-color-1">
-          <video  className="w-full h-full object-contain  " muted autoPlay playsInline loop>
+          <video  className="w-full sm:h-[40rem] object-cover  " muted autoPlay playsInline loop>
                 <source src={`/images/newhome/Banner 3.mp4`} type="video/mp4" />
             </video>
           </div>
@@ -146,8 +150,8 @@ export default function Home() {
         <div className="flex flex-col gap-8">
         <h2 className="telegraf text-color-1 text-4xl text-center font-bold pr-4">Our Services</h2>
         <div className="flex justify-center flex-wrap gap-8 px-16">
-          
-          <div className="flex flex-col min-min-w-1/4 gap-2">
+          <div className="flex sm:flex-nowrap flex-wrap gap-4 sm:w-[70%] w-full justify-between">
+          <div className="flex flex-col w-full gap-2">
           <h3 className="telegraf text-color-1 text-2xl  font-bold ">Strategy</h3>
             <ul className="list-disc text-xl pl-8">
             <li>Growth Strategy</li>
@@ -159,7 +163,7 @@ export default function Home() {
             </ul>
           </div>
           
-          <div className="flex flex-col min-w-1/4 gap-2">
+          <div className="flex flex-col w-full gap-2">
           <h3 className="telegraf text-color-1 text-2xl  font-bold ">Marketing</h3>
             <ul className="list-disc text-xl pl-8">
             <li>Campaign Development</li>
@@ -170,7 +174,7 @@ export default function Home() {
             <li>Search Engine Marketing</li>
             </ul>
           </div>
-          <div className="flex flex-col min-w-1/4 gap-2">
+          <div className="flex flex-col w-full gap-2">
           <h3 className="telegraf text-color-1 text-2xl  font-bold ">Creatives</h3>
             <ul className="list-disc text-xl pl-8">
             <li>Brand Identity & Naming</li>
@@ -181,7 +185,11 @@ export default function Home() {
             <li>Concept Art</li>
             </ul>
           </div>
-          <div className="flex flex-col min-w-1/4 gap-2">
+          </div>
+
+
+          <div className="flex sm:flex-nowrap flex-wrap gap-4 sm:w-[70%] w-full justify-between">
+          <div className="flex flex-col w-full gap-2">
           <h3 className="telegraf text-color-1 text-2xl  font-bold ">Media Buying</h3>
             <ul className="list-disc text-xl pl-8">
             <li>Performance Marketing</li>
@@ -191,7 +199,7 @@ export default function Home() {
             <li>Radius Marketing</li>  
             </ul>
           </div>
-          <div className="flex flex-col min-w-1/4 gap-2">
+          <div className="flex flex-col w-full gap-2">
           <h3 className="telegraf text-color-1 text-2xl  font-bold ">PR</h3>
             <ul className="list-disc text-xl pl-8">
             <li>Reputation Management</li>
@@ -201,7 +209,7 @@ export default function Home() {
             <li>Event Planning</li>  
             </ul>
           </div>
-          <div className="flex flex-col min-w-1/4 gap-2">
+          <div className="flex flex-col w-full gap-2">
           <h3 className="telegraf text-color-1 text-2xl  font-bold ">Productions</h3>
             <ul className="list-disc text-xl pl-8">
             <li>Video Content</li>
@@ -210,6 +218,7 @@ export default function Home() {
             <li>Scripts</li>
             <li>TVCs/DVCs</li>  
             </ul>
+          </div>
           </div>
         </div>
         </div>

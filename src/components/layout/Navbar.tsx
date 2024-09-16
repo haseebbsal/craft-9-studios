@@ -1,5 +1,5 @@
 'use client';
-import { Button } from "@nextui-org/react";
+import { Button, Dropdown, DropdownItem, DropdownMenu, DropdownTrigger } from "@nextui-org/react";
 import { Lato } from "next/font/google";
 import Image from "next/image";
 const latoFont=Lato({
@@ -20,7 +20,26 @@ export default function Navbarr() {
             <div></div>
             <div className="flex gap-4 flex-wrap items-end">
                 <Link href={'/creatives'}>Creative Work</Link>
-                <Link href={'/creatives'}>Case Studies</Link>
+
+                <Dropdown classNames={{content:"!bg-transparent"}}>
+                    <DropdownTrigger className="border-none p-0 h-auto">
+                        <Button
+                        className="text-color-1 text-lg" 
+                        variant="bordered" 
+                        >
+                        Case Studies
+                        </Button>
+                    </DropdownTrigger>
+                    <DropdownMenu  className="!bg-zinc-900 text-color-1 rounded-lg" aria-label="Static Actions">
+                        <DropdownItem key="new"><Link href={'/case-studies'}>Rimjhim</Link></DropdownItem>
+                        <DropdownItem key="copy"><Link href={'/case-studies'}>Isuzu</Link></DropdownItem>
+                        {/* <DropdownItem key="edit">Edit file</DropdownItem> */}
+                        {/* <DropdownItem key="delete" className="text-danger" color="danger">
+                        Delete file
+                        </DropdownItem> */}
+                    </DropdownMenu>
+                </Dropdown>
+                {/* <Link href={'/creatives'}>Case Studies</Link> */}
                 <Link href={'/creatives'}>About Us</Link>
                 <Link href={'/creatives'}>Contact Us</Link>
                 <Button className="text-[#19012b] bg-[#c1ff72] box-border text-lg p-4 rounded-none ">Get A Quote</Button>
@@ -41,7 +60,7 @@ export default function Navbarr() {
             </div>
         </div>
 
-        <div onClick={()=>setToggleMenu(!toggleMenu)} className={`fixed text-[#c1ff72] ${toggleMenu?'block':"hidden"}  sm:hidden z-[43434344] bg-[#000000b0] h-full w-full top-0 left-0`}>
+        <div onClick={()=>setToggleMenu(!toggleMenu)} className={`fixed text-[#c1ff72] ${toggleMenu?'block':"hidden"}  sm:hidden z-[999] bg-[#000000b0] h-full w-full top-0 left-0`}>
             <div className="bg-[#19012b] w-1/2 h-full flex flex-col items-center gap-8 p-4">
             <div className="w-full flex justify-center">
             <Link href={'/'} className="w-[6rem] block h-[6rem] ">
@@ -50,7 +69,24 @@ export default function Navbarr() {
             </div>
             <div className="flex flex-col gap-4 items-center">
             <Link href={'/creatives'}>Creative Work</Link>
-                <Link href={'/creatives'}>Case Studies</Link>
+            <Dropdown className="!z-[877]" classNames={{content:"!bg-transparent"}}>
+                    <DropdownTrigger className="border-none p-0 h-auto">
+                        <Button
+                        className="text-color-1 text-lg" 
+                        variant="bordered" 
+                        >
+                        Case Studies
+                        </Button>
+                    </DropdownTrigger>
+                    <DropdownMenu  className="!bg-zinc-900 text-color-1 rounded-lg" aria-label="Static Actions">
+                        <DropdownItem key="new"><Link href={'/case-studies'}>Rimjhim</Link></DropdownItem>
+                        <DropdownItem key="copy"><Link href={'/case-studies'}>Isuzu</Link></DropdownItem>
+                        {/* <DropdownItem key="edit">Edit file</DropdownItem> */}
+                        {/* <DropdownItem key="delete" className="text-danger" color="danger">
+                        Delete file
+                        </DropdownItem> */}
+                    </DropdownMenu>
+                </Dropdown>
                 <Link href={'/creatives'}>About Us</Link>
                 <Link href={'/creatives'}>Contact Us</Link>
                 <Button className="text-[#19012b] bg-[#c1ff72] box-border text-lg p-4 rounded-none ">Get A Quote</Button>
