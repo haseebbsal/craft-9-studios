@@ -30,7 +30,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col items-center gap-16">
-          <h2 className="telegraf font-bold text-color-1 text-5xl">What we can help you with</h2>
+          <h2 className=" text-center telegraf font-bold text-color-1 text-5xl">What we can help you with</h2>
           <Swiper
       className="w-full"
       navigation={true} modules={[Navigation]}
