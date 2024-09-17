@@ -3,6 +3,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { BsArrowUpCircle } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { IoLogoBehance } from "react-icons/io5";
 import { IoCall } from "react-icons/io5";
 
 import { MdLocationOn } from "react-icons/md";
@@ -31,6 +32,8 @@ export default function Footer() {
                     <a href="https://www.facebook.com/profile.php?id=61559895543212&mibextid=ZbWKwL" target="_blank"><FaFacebook/></a>
                     <a href="https://www.instagram.com/craft9studios?igsh=MTd6MzN0MTc1YWJrdA==" target="_blank"><FaInstagram/></a>
                     <a href="https://www.linkedin.com/company/craft-9-studios/" target="_blank"><FaLinkedin/></a>
+                    <a href="https://www.linkedin.com/company/craft-9-studios/" target="_blank"><IoLogoBehance/></a>
+
                 </div>
                 <div className="flex flex-col text-color-1 gap-2">
                     <div className="flex items-center gap-2">
