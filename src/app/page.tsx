@@ -85,6 +85,13 @@ export default function Home() {
             </div>
             <p className="telegraf font-bold text-2xl">Media-Buying</p>
             </div></SwiperSlide>
+           
+                    <SwiperSlide><div className="flex flex-col gap-2 items-center">
+            <p className="telegraf font-bold text-2xl">Strategy</p>
+            <div className="sm:h-[24rem] h-[20rem] w-[24rem] ">
+              <Image priority className="w-full h-full object-contain" src={'/images/newhome/homeslider/Strategy.svg'} alt="productions" width={300} height={300}/>
+            </div>
+            </div></SwiperSlide>
     </Swiper>
           {/* <div className="flex gap-2">
             <div className="flex flex-col gap-2 items-center">
