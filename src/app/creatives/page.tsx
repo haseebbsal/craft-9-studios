@@ -123,71 +123,133 @@ export default function Creatives() {
                     <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="food" className="text-end min-w-1/4">food and
                         beverages</h1>
                     </div>
-                    <div className="flex flex-wrap justify-start gap-4">
-                      
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+                    <Swiper
+      className="w-full"
+      navigation={true} modules={[Navigation]}
+      spaceBetween={0}
+      slidesPerView={1}
+      breakpoints={{
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      }}
+    >
+      <SwiperSlide>
+      <div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/01.svg'} width={100} height={250} alt="individual" />
                             </div>
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+        </SwiperSlide>
+      <SwiperSlide><div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/02.svg'} width={100} height={250} alt="individual" />
-                            </div>
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+                            </div></SwiperSlide>
+      <SwiperSlide><div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/03.svg'} width={100} height={250} alt="individual" />
-                            </div>
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+                            </div></SwiperSlide>
+                    <SwiperSlide><div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/04.svg'} width={100} height={250} alt="individual" />
-                            </div>
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+                            </div></SwiperSlide>
+                            <SwiperSlide><div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/creatives/Food & Bev/05.svg'} width={100} height={250} alt="individual" />
-                            </div>
-                           
-                        
-                    </div>
+                            </div></SwiperSlide>
+    </Swiper>
+                    
                     
                 </div>
                 <div className="p-8 flex flex-col gap-8">
                     <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="fashion" className="text-end min-w-1/4">fashion</h1>
                     </div>
-                    <div className="flex flex-wrap justify-start gap-4">
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+                    <Swiper
+      className="w-full"
+      navigation={true} modules={[Navigation]}
+      spaceBetween={0}
+      slidesPerView={1}
+      breakpoints={{
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      }}
+    >
+      <SwiperSlide>
+      <div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/creatives/Fashion/01.svg'} width={100} height={250} alt="individual" />
                             </div>
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+        </SwiperSlide>
+      <SwiperSlide><div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/creatives/Fashion/02.svg'} width={100} height={250} alt="individual" />
-                            </div>
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+                            </div></SwiperSlide>
+      <SwiperSlide><div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/creatives/Fashion/03.svg'} width={100} height={250} alt="individual" />
-                            </div>
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+                            </div></SwiperSlide>
+                    <SwiperSlide><div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/creatives/Fashion/04.svg'} width={100} height={250} alt="individual" />
-                            </div>
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+                            </div></SwiperSlide>
+                            <SwiperSlide><div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/newhome/Dezine N Rungs.svg'} width={100} height={250} alt="individual" />
-                            </div>
-                    </div>
+                            </div></SwiperSlide>
+    </Swiper>
+                    
 
                 </div>
                 <div className="p-8 flex flex-col gap-8">
                     <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="corporate" className="text-end min-w-1/4">corporate</h1>
                     </div>
-                    <div className="flex flex-wrap justify-start gap-4">
-                    <div className="w-max max-h-[25rem] h-[20rem]">
+                    <Swiper
+      className="w-full"
+      navigation={true} modules={[Navigation]}
+      spaceBetween={0}
+      slidesPerView={1}
+      breakpoints={{
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      }}
+    >
+      <SwiperSlide>
+      <div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/creatives/Corporate/01.svg'} width={100} height={250} alt="individual" />
                             </div>
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+        </SwiperSlide>
+      <SwiperSlide><div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/creatives/Corporate/02.svg'} width={100} height={250} alt="individual" />
-                            </div>
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+                            </div></SwiperSlide>
+      <SwiperSlide><div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/creatives/Corporate/03.svg'} width={100} height={250} alt="individual" />
-                            </div>
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+                            </div></SwiperSlide>
+                    <SwiperSlide><div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/creatives/Corporate/04.svg'} width={100} height={250} alt="individual" />
-                            </div>
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+                            </div></SwiperSlide>
+                            <SwiperSlide><div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/newhome/Corporate pic 5.svg'} width={100} height={250} alt="individual" />
-                            </div>
-                            
-                    </div>
+                            </div></SwiperSlide>
+    </Swiper>
+                   
 
                 </div>
                 {/* <div className="p-8 flex flex-col gap-8">
@@ -212,44 +274,111 @@ export default function Creatives() {
                 <div className="p-8 flex flex-col gap-8">
                     <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="automotive" className="text-end min-w-1/4">automotive industry</h1>
                     </div>
-                    <div className="flex flex-wrap justify-start gap-4">
-                    <div className="w-max max-h-[25rem] h-[20rem]">
+                    <Swiper
+      className="w-full"
+      navigation={true} modules={[Navigation]}
+      spaceBetween={0}
+      slidesPerView={1}
+      breakpoints={{
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      }}
+    >
+      <SwiperSlide>
+      <div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/newhome/Auto M 2.svg'} width={100} height={250} alt="individual" />
                             </div>
-                            <div className="w-max max-h-[25rem] h-[20rem]">
-                                <Image priority className="w-full h-full object-cover " src={'/images/newhome/bd3e0d207738401.66e2c2e8905d7.gif'} width={100} height={250} alt="individual" />
-                            </div>
-                            <div className="w-max max-h-[25rem] h-[20rem]">
+        </SwiperSlide>
+      <SwiperSlide><div className="w-max max-h-[25rem] h-[20rem]">
                                 <Image priority className="w-full h-full object-cover " src={'/images/newhome/Auto M 1.svg'} width={100} height={250} alt="individual" />
-                            </div>
-                    </div>
+                            </div></SwiperSlide>
+      <SwiperSlide><div className="w-full max-h-[25rem] h-[20rem]">
+                                <Image priority className="w-full h-full object-cover " src={'/images/newhome/bd3e0d207738401.66e2c2e8905d7.gif'} width={100} height={250} alt="individual" />
+                            </div></SwiperSlide>
+                    
+    </Swiper>
+                    
 
                 </div>
 
                 <div className="p-8 flex flex-col gap-8">
                     <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="automotive" className="text-end min-w-1/4">Reel Collabs</h1>
                     </div>
-                    <div className="flex flex-wrap justify-start gap-4">
-                    <div className="w-[20rem] max-h-[25rem] h-[20rem]">
+                    <Swiper
+      className="w-full"
+      navigation={true} modules={[Navigation]}
+      spaceBetween={0}
+      slidesPerView={1}
+      breakpoints={{
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      }}
+    >
+      <SwiperSlide>
+      <div className="w-[20rem] max-h-[25rem] h-[20rem]">
                     <video  className="w-full h-full object-cover  " muted autoPlay playsInline loop>
                 <source src={`/images/newhome/Reel 5.mov`} type="video/mp4" />
             </video>
                             </div>
-                            <div className="w-[20rem] max-h-[25rem] h-[20rem]">
+        </SwiperSlide>
+      <SwiperSlide><div className="w-[20rem]  ">
                             <video  className="w-full h-full object-cover  " muted autoPlay playsInline loop>
                 <source src={`/images/newhome/Reel 6.mov`} type="video/mp4" />
             </video>
-                            </div>
-                            <div className="w-[20rem] max-h-[25rem] h-[20rem]">
+                            </div></SwiperSlide>
+      <SwiperSlide><div className="w-[20rem]  ">
                             <video  className="w-full h-full object-cover  " muted autoPlay playsInline loop>
                 <source src={`/images/newhome/Reel 7.mov`} type="video/mp4" />
             </video>
-                            </div>
-                            <div className="w-[20rem] max-h-[25rem] h-[20rem]">
+                            </div></SwiperSlide>
+                            <SwiperSlide><div className="w-[20rem]  ">
                             <video  className="w-full h-full object-cover  " muted autoPlay playsInline loop>
                 <source src={`/images/newhome/Reel 8.mov`} type="video/mp4" />
             </video>
-                            </div>
+                            </div></SwiperSlide>
+                    
+    </Swiper>
+                    <div className="flex flex-wrap justify-start gap-4">
+                    {/* <div className="w-[20rem] max-h-[25rem] h-[20rem]">
+                    <video  className="w-full h-full object-cover  " muted autoPlay playsInline loop>
+                <source src={`/images/newhome/Reel 5.mov`} type="video/mp4" />
+            </video>
+                            </div> */}
+                            {/* <div className="w-[20rem] max-h-[25rem] h-[20rem]">
+                            <video  className="w-full h-full object-cover  " muted autoPlay playsInline loop>
+                <source src={`/images/newhome/Reel 6.mov`} type="video/mp4" />
+            </video>
+                            </div> */}
+                            {/* <div className="w-[20rem] max-h-[25rem] h-[20rem]">
+                            <video  className="w-full h-full object-cover  " muted autoPlay playsInline loop>
+                <source src={`/images/newhome/Reel 7.mov`} type="video/mp4" />
+            </video>
+                            </div> */}
+                            {/* <div className="w-[20rem] max-h-[25rem] h-[20rem]">
+                            <video  className="w-full h-full object-cover  " muted autoPlay playsInline loop>
+                <source src={`/images/newhome/Reel 8.mov`} type="video/mp4" />
+            </video>
+                            </div> */}
                     </div>
 
                 </div>
