@@ -35,7 +35,7 @@ export default function Footer() {
                 <div className="flex flex-col text-color-1 gap-2">
                     <div className="flex items-center gap-2">
                         <MdLocationOn className="text-2xl p-1 border-2 border-color-1 rounded-full"/>
-                        <p className="text-lg"><a target="_blank" href="https://www.google.com/maps/search/?api=1&query=D-38,Block 5,Clifton,Karachi">D-38, Block 5, Clifton, Karachi</a></p>
+                        <p className="text-lg"><a target="_blank" href="https://www.google.com/maps/place/Finosys+(Private)+Limited/@24.8221701,67.0262738,20z/data=!4m14!1m7!3m6!1s0x3eb33d8b3bb7c7a9:0x6aecaa8a13b36394!2sFinosys+(Private)+Limited!8m2!3d24.8223056!4d67.0264587!16s%2Fg%2F11nnlfwt0d!3m5!1s0x3eb33d8b3bb7c7a9:0x6aecaa8a13b36394!8m2!3d24.8223056!4d67.0264587!16s%2Fg%2F11nnlfwt0d?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D">D-38, Block 5, Clifton, Karachi</a></p>
                     </div>
                     <div className="flex items-center gap-2">
                         <IoCall className="text-2xl p-1 border-2 border-color-1 rounded-full"/>
