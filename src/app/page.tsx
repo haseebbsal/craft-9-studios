@@ -42,12 +42,12 @@ export default function Home() {
           spaceBetween: 20,
         },
         768: {
-          slidesPerView: 4,
-          spaceBetween: 10,
+          slidesPerView: 3,
+          spaceBetween: 100,
         },
         1024: {
           slidesPerView: 4,
-          spaceBetween: 10,
+          spaceBetween: 100,
         },
       }}
     //   onSlideChange={() => console.log('slide change')}
@@ -55,33 +55,33 @@ export default function Home() {
     >
       <SwiperSlide>
       <div className="flex flex-col gap-2 items-center">
-            <div className="h-[24rem] w-[24rem] ">
-              <Image priority className="w-full h-full object-contain" src={'/images/newhome/Branding.svg'} alt="productions" width={300} height={300}/>
+            <div className="sm:h-[24rem] h-[20rem] w-[24rem] ">
+              <Image priority className="w-full h-full object-contain" src={'/images/newhome/homeslider/Branding (1).svg'} alt="productions" width={300} height={300}/>
             </div>
             <p className="telegraf font-bold text-2xl">Branding</p>
             </div>
         </SwiperSlide>
       <SwiperSlide><div className="flex flex-col gap-2 items-center">
             <p className="telegraf font-bold text-2xl">Creatives</p>
-            <div className="h-[24rem] w-[24rem] ">
-              <Image priority className="w-full h-full object-contain" src={'/images/newhome/Creatives.svg'} alt="productions" width={300} height={300}/>
+            <div className="sm:h-[24rem] h-[20rem] w-[24rem] ">
+              <Image priority className="w-full h-full object-contain" src={'/images/newhome/homeslider/Creatives (1).svg'} alt="productions" width={300} height={300}/>
             </div>
             </div></SwiperSlide>
       <SwiperSlide><div className="flex flex-col gap-2 items-center">
-            <div className="h-[24rem] w-[24rem] ">
-              <Image priority className="w-full h-full object-contain" src={'/images/newhome/Web-Craft.svg'} alt="productions" width={300} height={300}/>
+            <div className="sm:h-[24rem] h-[20rem] w-[24rem] ">
+              <Image priority className="w-full h-full object-contain" src={'/images/newhome/homeslider/Web-Craft (1).svg'} alt="productions" width={300} height={300}/>
             </div>
             <p className="telegraf font-bold text-2xl">Web Craft</p>
             </div></SwiperSlide>
       <SwiperSlide><div className="flex flex-col gap-2 items-center">
             <p className="telegraf font-bold text-2xl">Productions</p>
-            <div className="h-[24rem] w-[24rem] ">
-              <Image priority className="w-full h-full object-contain" src={'/images/newhome/Productions.svg'} alt="productions" width={300} height={300}/>
+            <div className="sm:h-[24rem] h-[20rem] w-[24rem] ">
+              <Image priority className="w-full h-full object-contain" src={'/images/newhome/homeslider/Productions (1).svg'} alt="productions" width={300} height={300}/>
             </div>
             </div></SwiperSlide>
                     <SwiperSlide><div className="flex flex-col gap-2 items-center">
-            <div className="h-[24rem] w-[24rem] ">
-              <Image priority className="w-full h-full object-contain" src={'/images/newhome/Media Buying.svg'} alt="productions" width={300} height={300}/>
+            <div className="sm:h-[24rem] h-[20rem] w-[24rem] ">
+              <Image priority className="w-full h-full object-contain" src={'/images/newhome/homeslider/Media Buying (1).svg'} alt="productions" width={300} height={300}/>
             </div>
             <p className="telegraf font-bold text-2xl">Media-Buying</p>
             </div></SwiperSlide>
@@ -123,8 +123,8 @@ export default function Home() {
 
         <div>
           <h2 className="telegraf text-2xl text-end pr-4">Brand Logo To Key Visuals</h2>
-          <div style={{background:"url('/images/newhome/banner/Background.svg')",backgroundSize:"contain"}} className="w-full flex justify-center items-center border-4 border-color-1">
-          <div className="sm:h-[40rem] w-full">
+          <div style={{background:"url('/images/newhome/banner/Background.svg')",backgroundSize:"cover"}} className="w-full flex justify-center items-center border-4 border-color-1">
+          <div className="sm:h-[30rem] w-full">
           <Image priority className="w-full h-full object-contain" src={'/images/newhome/banner/Phones.svg'} alt="first" width={400} height={400}/>
           </div>
           </div>
@@ -132,8 +132,8 @@ export default function Home() {
 
         <div>
           <h2 className="telegraf text-2xl text-end pr-4">Brand Creatives</h2>
-          <div style={{background:"url('/images/newhome/banner/Banner 2 BG.svg')",backgroundSize:"contain"}} className="w-full flex justify-center items-center border-4 border-color-1">
-          <div className="sm:h-[40rem] w-full">
+          <div style={{background:"url('/images/newhome/banner/Banner 2 BG.svg')",backgroundSize:"cover"}} className="w-full flex justify-center items-center border-4 border-color-1">
+          <div className="sm:h-[30rem] w-full">
           <Image priority className="w-full h-full object-contain" src={'/images/newhome/banner/Banner 2 Pics.svg'} alt="first" width={400} height={400}/>
           </div>
           </div>
@@ -142,7 +142,7 @@ export default function Home() {
         <div>
           <h2 className="telegraf text-2xl text-end pr-4">Paid Ads Funnel</h2>
           <div className="w-full border-4 border-color-1">
-          <video  className="w-full sm:h-[40rem] object-cover  " controls >
+          <video  className="w-full sm:h-[40rem] object-cover  "  controls >
                 <source src={`/images/newhome/Banner 3.mp4`} type="video/mp4" />
             </video>
           </div>

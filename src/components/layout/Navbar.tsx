@@ -32,8 +32,8 @@ export default function Navbarr() {
                         </Button>
                     </DropdownTrigger>
                     <DropdownMenu  className="!bg-zinc-900 text-color-1 rounded-lg" aria-label="Static Actions">
-                        <DropdownItem key="new"><Link href={'/case-studies'}>Rimjhim</Link></DropdownItem>
-                        <DropdownItem key="copy"><Link href={'/case-studies'}>Isuzu</Link></DropdownItem>
+                        <DropdownItem key="new"><Link href={`${process.env.NEXT_PUBLIC_BASEURL}/case-studies#rimjhim`}>Rimjhim</Link></DropdownItem>
+                        <DropdownItem key="copy"><Link href={`${process.env.NEXT_PUBLIC_BASEURL}/case-studies#isuzu`}>Isuzu</Link></DropdownItem>
                         {/* <DropdownItem key="edit">Edit file</DropdownItem> */}
                         {/* <DropdownItem key="delete" className="text-danger" color="danger">
                         Delete file
@@ -45,7 +45,7 @@ export default function Navbarr() {
                 <Link className=" border-2 border-color-1 p-2" href={'/contact'}>Get A Quote</Link>
                 <a target="_blank" href="https://www.instagram.com/thedigital_dhaba?igsh=MTBzdzR3djFqN2xrYw==" style={{background:"linear-gradient(115deg, rgb(249, 206, 52), rgb(238, 42, 123), rgb(98, 40, 215))"}} className="text-[#19012b] flex gap-2 items-center box-border text-lg p-[0.6rem] rounded-none "> <IoLogoInstagram className="text-2xl"/> The Digital Dhaba</a>
             </div>
-            <Link href={'/'} className="w-[6rem] block h-[6rem] absolute top-[25%] left-[5%]">
+            <Link href={'/'} className="w-[8rem] block h-[8rem] absolute top-[15%] left-[5%]">
                 <Image className="h-full w-full object-contain" src={'/images/loader/Craft 9 Studios Website Logo.svg'} alt="logo" width={100} height={100}/>
             </Link>
         </div>
@@ -55,7 +55,7 @@ export default function Navbarr() {
                 <MdMenu onClick={()=>setToggleMenu(!toggleMenu)} className="text-4xl cursor-pointer"/>
             </div>
             <div className="w-[90%] flex justify-center">
-            <Link href={'/'} className="w-[6rem] h-[6rem] ">
+            <Link href={'/'} className="w-[8rem] h-[8rem] ">
                 <Image className="h-full w-full object-contain" src={'/images/loader/Craft 9 Studios Website Logo.svg'} alt="logo" width={100} height={100}/>
             </Link >
             </div>
@@ -64,7 +64,7 @@ export default function Navbarr() {
         <div onClick={()=>setToggleMenu(!toggleMenu)} className={`fixed text-[#c1ff72] ${toggleMenu?'block':"hidden"}  sm:hidden z-[999] bg-[#000000b0] h-full w-full top-0 left-0`}>
             <div className="bg-[#19012b] w-1/2 h-full flex flex-col items-center gap-8 p-4">
             <div className="w-full flex justify-center">
-            <Link href={'/'} className="w-[6rem] block h-[6rem] ">
+            <Link href={'/'} className="w-[8rem] block h-[8rem] ">
                 <Image className="h-full w-full object-contain" src={'/images/loader/Craft 9 Studios Website Logo.svg'} alt="logo" width={100} height={100}/>
             </Link>
             </div>
@@ -80,8 +80,8 @@ export default function Navbarr() {
                         </Button>
                     </DropdownTrigger>
                     <DropdownMenu  className="!bg-zinc-900 text-color-1 rounded-lg" aria-label="Static Actions">
-                        <DropdownItem key="new"><Link href={'/case-studies'}>Rimjhim</Link></DropdownItem>
-                        <DropdownItem key="copy"><Link href={'/case-studies'}>Isuzu</Link></DropdownItem>
+                    <DropdownItem key="new"><Link href={`${process.env.NEXT_PUBLIC_BASEURL}/case-studies#rimjhim`}>Rimjhim</Link></DropdownItem>
+                    <DropdownItem key="copy"><Link href={`${process.env.NEXT_PUBLIC_BASEURL}/case-studies#isuzu`}>Isuzu</Link></DropdownItem>
                         {/* <DropdownItem key="edit">Edit file</DropdownItem> */}
                         {/* <DropdownItem key="delete" className="text-danger" color="danger">
                         Delete file
