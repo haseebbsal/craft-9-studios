@@ -90,7 +90,8 @@ export default function Navbarr() {
                 </Dropdown>
                 <Link href={'/creatives'}>About Us</Link>
                 <Link className=" border-2 border-color-1 p-2" href={'/contact'}>Get A Quote</Link>
-                <a target="_blank" href="https://www.instagram.com/thedigital_dhaba?igsh=MTBzdzR3djFqN2xrYw==" style={{background:"linear-gradient(115deg, rgb(249, 206, 52), rgb(238, 42, 123), rgb(98, 40, 215))"}} className="text-[#19012b] flex gap-1 items-center box-border text-lg p-[0.6rem] rounded-none "> <IoLogoInstagram className="text-2xl"/> The Digital Dhaba</a>
+                <a target="_blank" href="https://www.instagram.com/thedigital_dhaba?igsh=MTBzdzR3djFqN2xrYw=="  className="text-[#19012b] bg-color-1 flex gap-2 items-center box-border text-lg p-[0.6rem] rounded-none "> <IoLogoInstagram className="text-2xl"/> The Digital Dhaba</a>
+
             </div>
             </div>
         </div>
