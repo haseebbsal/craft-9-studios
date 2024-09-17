@@ -14,7 +14,7 @@ export default function Loader() {
             const intervalId = setInterval(() => {
                 if (count == 101) {
                     clearInterval(intervalId)
-                    // loaderRef.current!.style.display='none'
+                    loaderRef.current!.style.display='none'
                     document.getElementById('content')!.style.display='block'
                 }
                 loaderRef.current!.style.transform = `translateX(${count}%)`
