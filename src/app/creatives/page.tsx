@@ -303,7 +303,7 @@ export default function Creatives() {
                                 <Image priority className="w-full h-full object-cover " src={'/images/newhome/Auto M 1.svg'} width={100} height={250} alt="individual" />
                             </div></SwiperSlide>
       <SwiperSlide><div className="w-full max-h-[25rem] h-[20rem]">
-                                <Image priority className="w-full h-full object-cover " src={'/images/newhome/bd3e0d207738401.66e2c2e8905d7.gif'} width={100} height={250} alt="individual" />
+                                <Image priority className="w-full h-full object-cover " src={'/images/newhome/Behance-ISUZU-02-GIF-(400x400).gif'} width={100} height={250} alt="individual" />
                             </div></SwiperSlide>
                     
     </Swiper>
