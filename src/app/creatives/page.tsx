@@ -16,6 +16,7 @@ import { Navigation } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
+import Link from "next/link";
 // import { useEffect, useState } from "react";
 const italiana = Italiana({
     weight: "400",
@@ -30,9 +31,10 @@ export default function Creatives() {
                     <div className="flex gap-2 justify-center sm:justify-start items-center">
                         <div className="flex flex-col">
                             <p className={`text-[5rem] telegraf text-color-1`}>Explore</p>
-                            <p className="self-end text-xl text-gray-500">creatives</p>
+                            {/* <p className="self-end text-xl text-gray-500">creatives</p> */}
                         </div>
-                        <IoCaretForwardOutline className="text-2xl" />
+                        <Link href={'#food'}><IoCaretForwardOutline className="text-2xl hover:rotate-90" /></Link>
+                        
                     </div>
                 </div>
                 <div className="flex text-white gap-4">
@@ -59,8 +61,8 @@ export default function Creatives() {
     //   onSlideChange={() => console.log('slide change')}
     //   onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide>
-            <div className="relative creativeHover flex justify-center items-center overflow-hidden w-[22rem] h-[22rem]">
+      <SwiperSlide >
+            <div className="relative creativeHover  flex justify-center items-center overflow-hidden min-min-w-[22rem] h-[22rem]">
                 <Image priority className="w-full absolute top-0 h-full object-fill " src={'/images/creatives/Food&Beverages.svg'} width={100} height={250} alt="individual" />
                 
                 <div className="absolute   bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
@@ -72,7 +74,7 @@ export default function Creatives() {
             
             </div>
         </SwiperSlide>
-      <SwiperSlide><div className="relative creativeHover overflow-hidden flex justify-center items-center w-[22rem] h-[22rem]">
+      <SwiperSlide><div className="relative creativeHover overflow-hidden flex justify-center items-center min-w-[22rem] h-[22rem]">
                         <Image priority className="w-full absolute top-0 h-full object-fill " src={'/images/creatives/Fashion.svg'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute   bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
@@ -82,7 +84,7 @@ export default function Creatives() {
                         </a>
                 </div>
                     </div></SwiperSlide>
-      <SwiperSlide><div className="relative creativeHover overflow-hidden flex justify-center items-center w-[22rem] h-[22rem]">
+      <SwiperSlide><div className="relative creativeHover overflow-hidden flex justify-center items-center min-w-[22rem] h-[22rem]">
                         <Image priority className="w-full absolute top-0 h-full object-fill " src={'/images/creatives/Corporate.svg'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute  top-0  bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
@@ -92,7 +94,7 @@ export default function Creatives() {
                         </a>
                 </div>
                     </div></SwiperSlide>
-      {/* <SwiperSlide><div className="relative flex creativeHover overflow-hidden justify-center items-center w-[22rem] h-[22rem]">
+      {/* <SwiperSlide><div className="relative flex creativeHover overflow-hidden justify-center items-center min-w-[22rem] h-[22rem]">
                         <Image  className="w-full absolute top-0 h-full object-fill " src={'/images/creatives/bts.png'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute  top-0  bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
@@ -102,7 +104,7 @@ export default function Creatives() {
                         </a>
                 </div>
                     </div></SwiperSlide> */}
-                    <SwiperSlide><div className="relative creativeHover overflow-hidden flex justify-center items-center w-[22rem] h-[22rem]">
+                    <SwiperSlide><div className="relative creativeHover overflow-hidden flex justify-center items-center min-w-[22rem] h-[22rem]">
                         <Image priority className="w-full absolute top-0 h-full object-fill " src={'/images/newhome/Isuzu Main.svg'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute  top-0  bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
@@ -119,7 +121,7 @@ export default function Creatives() {
                     
 
                 </div>
-                <div className="p-8 flex flex-col gap-8">
+                <div className=" p-8 flex flex-col gap-8">
                     <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="food" className="text-end min-w-1/4">food and
                         beverages</h1>
                     </div>
