@@ -335,7 +335,7 @@ export default function Creatives() {
       }}
     >
       <SwiperSlide>
-      <div className="w-[20rem] max-h-[25rem] h-[20rem]">
+      <div className="w-[20rem] ">
                     <video  className="w-full h-full object-cover  " muted autoPlay playsInline loop>
                 <source src={`/images/newhome/Reel 5.mov`} type="video/mp4" />
             </video>
