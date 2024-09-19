@@ -32,8 +32,8 @@ export default function Navbarr() {
                         </Button>
                     </DropdownTrigger>
                     <DropdownMenu  className="!bg-zinc-900 text-color-1 rounded-lg" aria-label="Static Actions">
-                        <DropdownItem key="new"><Link href={`${process.env.NEXT_PUBLIC_BASEURL}/case-studies#rimjhim`}>Rimjhim</Link></DropdownItem>
-                        <DropdownItem key="copy"><Link href={`${process.env.NEXT_PUBLIC_BASEURL}/case-studies#isuzu`}>Isuzu</Link></DropdownItem>
+                        <DropdownItem key="new"><Link className=" block w-full" href={`${process.env.NEXT_PUBLIC_BASEURL}/case-studies#rimjhim`}>Rimjhim</Link></DropdownItem>
+                        <DropdownItem key="copy"><Link className=" block w-full" href={`${process.env.NEXT_PUBLIC_BASEURL}/case-studies#isuzu`}>Isuzu</Link></DropdownItem>
                         {/* <DropdownItem key="edit">Edit file</DropdownItem> */}
                         {/* <DropdownItem key="delete" className="text-danger" color="danger">
                         Delete file
@@ -80,8 +80,8 @@ export default function Navbarr() {
                         </Button>
                     </DropdownTrigger>
                     <DropdownMenu  className="!bg-zinc-900 text-color-1 rounded-lg" aria-label="Static Actions">
-                    <DropdownItem key="new"><Link href={`${process.env.NEXT_PUBLIC_BASEURL}/case-studies#rimjhim`}>Rimjhim</Link></DropdownItem>
-                    <DropdownItem key="copy"><Link href={`${process.env.NEXT_PUBLIC_BASEURL}/case-studies#isuzu`}>Isuzu</Link></DropdownItem>
+                    <DropdownItem key="new"><Link className=" block w-full" href={`${process.env.NEXT_PUBLIC_BASEURL}/case-studies#rimjhim`}>Rimjhim</Link></DropdownItem>
+                    <DropdownItem key="copy"><Link className=" block w-full" href={`${process.env.NEXT_PUBLIC_BASEURL}/case-studies#isuzu`}>Isuzu</Link></DropdownItem>
                         {/* <DropdownItem key="edit">Edit file</DropdownItem> */}
                         {/* <DropdownItem key="delete" className="text-danger" color="danger">
                         Delete file
