@@ -80,7 +80,26 @@ export default function CaseStudies(){
                     <Image priority className="w-full h-full object-contain" src={'/images/newhome/casestudies/Rimjhim Logo.svg'} alt="first" width={400} height={400}/>
                 </div>
             </div>
+            <div className="flex sm:flex-nowrap flex-wrap  justify-center sm:px-16 px-4 gap-4">
+                        <div className="telegraf sm:w-1/2 flex flex-col gap-4">
+                        <p className="text-2xl font-bold">The Solution</p>
+                        <p className="text-lg font-bold">We propose that Isuzu focus on highlighting the D-Max's unique features and target specific segments to effectively reposition the vehicle. By emphasizing the D-Max's off-road capabilities, fuel efficiency, and comfort, we believe it can position itself as a superior alternative to crossovers.</p>
+                        </div>
+                        <div className="sm:w-1/2 h-[15rem]">
+                    <Image priority className="w-full h-full object-contain" src={'/images/newhome/casestudies/1.svg'} alt="first" width={400} height={400}/>
+                </div>
+                        </div>
+                        <div className="flex sm:flex-nowrap flex-wrap  justify-center sm:px-16 px-4 gap-4">
+                        <div className="telegraf sm:w-1/2 flex flex-col gap-4">
+                        {/* <p className="text-2xl font-bold">The Solution</p> */}
+                        <p className="text-lg font-bold">Additionally, targeting adventure enthusiasts, urban commuters, and families can help tailor marketing efforts to resonate with the needs of each group. Creating a distinct brand identity through a new tagline and a targeted marketing campaign can further enhance the D-Max's appeal and differentiate it from competitors. By implementing these strategies, we believe Isuzu can successfully reposition the D-Max and attract a wider audience, driving sales and market share.</p>
+                        </div>
+                        <div className="sm:w-1/2 h-[15rem]">
+                    <Image priority className="w-full h-full object-contain" src={'/images/newhome/casestudies/1.svg'} alt="first" width={400} height={400}/>
+                </div>
+                        </div>
         </div>
+        
         </>
     )
 }
