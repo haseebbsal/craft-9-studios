@@ -24,7 +24,7 @@ export default function Loader() {
     },[])
     return (
         <>
-            <div ref={loaderRef} className=" loader absolute flex z-[2222222222222222] justify-center items-center bg-black w-full h-full top-0">
+            <div ref={loaderRef} className=" loader absolute flex z-[2222222222222222] justify-center items-center bg-[#19012b] w-full h-full top-0">
                 <div className="h-auto w-auto flex justify-center">
                     <Image className=" animate-bounce" priority src={'/images/loader/Craft 9 (White).svg'} alt="loader" width={300} height={400}/>
                 </div>

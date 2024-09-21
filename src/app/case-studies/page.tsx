@@ -22,7 +22,7 @@ export default function CaseStudies(){
                     {/* <Button className="bg-black border-2 rounded-none border-[#e5e900] garet font-bold self-end text-white">READ MORE</Button> */}
                 </div>
                 <div className="sm:w-1/2 h-[25rem]">
-                    <Image priority className="w-full h-full object-contain" src={'/images/newhome/casestudies/Rimjhim Logo.svg'} alt="first" width={400} height={400}/>
+                    <Image priority className="w-full h-full object-contain bg-none" src={'/images/newhome/casestudies/Rimjhim Logo file (2).svg'} alt="first" width={400} height={400}/>
                 </div>
             </div>
             <div className="flex sm:flex-nowrap flex-wrap  sm:gap-4">
