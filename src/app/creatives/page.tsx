@@ -79,7 +79,7 @@ export default function Creatives() {
                         
                         <div className="absolute   bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
                         <a href="#fashion" className={` cursor-pointer text-3xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
-                            fashion
+                            Fashion
                             <FaCaretDown className="text-2xl" />
                         </a>
                 </div>
@@ -89,7 +89,7 @@ export default function Creatives() {
                         
                         <div className="absolute  top-0  bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
                         <a href="#corporate"  className={` cursor-pointer text-3xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
-                            corporate
+                            Corporate
                             <FaCaretDown className="text-2xl" />
                         </a>
                 </div>
@@ -109,7 +109,7 @@ export default function Creatives() {
                         
                         <div className="absolute  top-0  bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
                         <a href="#automotive" className={` cursor-pointer text-3xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
-                        automotive industry
+                        Automotive Industry
                             <FaCaretDown className="text-2xl" />
                         </a>
                 </div>
@@ -122,8 +122,8 @@ export default function Creatives() {
 
                 </div>
                 <div className=" p-8 flex flex-col gap-8">
-                    <div className={` text-5xl justify-end flex`}><h1 id="food" className="text-end min-w-1/4">food and
-                        beverages</h1>
+                    <div className={` text-5xl justify-end flex`}><h1 id="food" className="text-end min-w-1/4">Food and
+                        Beverages</h1>
                     </div>
                     <Swiper
       className="w-full"
@@ -167,7 +167,7 @@ export default function Creatives() {
                     
                 </div>
                 <div className="p-8 flex flex-col gap-8">
-                    <div className={` text-5xl justify-end flex`}><h1 id="fashion" className="text-end min-w-1/4">fashion</h1>
+                    <div className={` text-5xl justify-end flex`}><h1 id="fashion" className="text-end min-w-1/4">Fashion</h1>
                     </div>
                     <Swiper
       className="w-full"
@@ -211,7 +211,7 @@ export default function Creatives() {
 
                 </div>
                 <div className="p-8 flex flex-col gap-8">
-                    <div className={` text-5xl justify-end flex`}><h1 id="corporate" className="text-end min-w-1/4">corporate</h1>
+                    <div className={` text-5xl justify-end flex`}><h1 id="corporate" className="text-end min-w-1/4">Corporate</h1>
                     </div>
                     <Swiper
       className="w-full"
@@ -274,7 +274,7 @@ export default function Creatives() {
 
                 </div> */}
                 <div className="p-8 flex flex-col gap-8">
-                    <div className={` text-5xl justify-end flex`}><h1 id="automotive" className="text-end min-w-1/4">automotive industry</h1>
+                    <div className={` text-5xl justify-end flex`}><h1 id="automotive" className="text-end min-w-1/4">Automotive Industry</h1>
                     </div>
                     <Swiper
       className="w-full"
