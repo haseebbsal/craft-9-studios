@@ -129,19 +129,19 @@ export default function Home() {
         </div>
 
         <div>
-          <h2 className="telegraf text-2xl text-end pr-4">Brand Logo To Key Visuals</h2>
+          <h2 className="telegraf text-2xl text-end pr-4">We do not believe in one reality anymore.</h2>
           <div  className="w-full flex justify-center items-center ">
-          <div className="sm:h-[35rem] w-full">
-          <Image priority className="w-full h-full object-cover" src={'/images/newhome/Banner New 1.svg'} alt="first" width={400} height={400}/>
+          <div className=" w-full">
+          <Image priority className="w-full h-max object-cover" src={'/images/newhome/Banner New 1.svg'} alt="first" width={400} height={400}/>
           </div>
           </div>
         </div>
 
         <div>
-          <h2 className="telegraf text-2xl text-end pr-4">Brand Creatives</h2>
+          <h2 className="telegraf text-2xl text-end pr-4">Visual Identity</h2>
           <div  className="w-full flex justify-center items-center ">
-          <div className="sm:h-[35rem] w-full">
-          <Image priority className="w-full h-full object-cover" src={'/images/newhome/Banner New 2.svg'} alt="first" width={400} height={400}/>
+          <div className=" w-full">
+          <Image priority className="w-full h-max object-cover" src={'/images/newhome/Banner New 2.svg'} alt="first" width={400} height={400}/>
           </div>
           </div>
         </div>
