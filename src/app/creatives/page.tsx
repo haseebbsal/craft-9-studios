@@ -26,7 +26,7 @@ const italiana = Italiana({
 export default function Creatives() {    
     return (
         <>
-            <div className="flex test flex-col gap-16">
+            <div className="flex test telegraf flex-col gap-16">
                 <div className="pt-16  sm:pl-44">
                     <div className="flex gap-2 justify-center sm:justify-start items-center">
                         <div className="flex flex-col">
@@ -66,7 +66,7 @@ export default function Creatives() {
                 <Image priority className="sm:w-full w-max absolute top-0 h-full object-fill " src={'/images/creatives/Food&Beverages.svg'} width={100} height={250} alt="individual" />
                 
                 <div className="absolute   bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
-                <a href="#food" className={`${italiana.className} cursor-pointer text-4xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
+                <a href="#food" className={` cursor-pointer text-3xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
                     food and beverages
                     <FaCaretDown className="text-2xl"/>
                 </a>
@@ -78,7 +78,7 @@ export default function Creatives() {
                         <Image priority className="sm:w-full w-max absolute top-0 h-full object-fill " src={'/images/creatives/Fashion.svg'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute   bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
-                        <a href="#fashion" className={`${italiana.className} cursor-pointer text-4xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
+                        <a href="#fashion" className={` cursor-pointer text-3xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
                             fashion
                             <FaCaretDown className="text-2xl" />
                         </a>
@@ -88,7 +88,7 @@ export default function Creatives() {
                         <Image priority className="sm:w-full w-max absolute top-0 h-full object-fill " src={'/images/creatives/Corporate.svg'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute  top-0  bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
-                        <a href="#corporate"  className={`${italiana.className} cursor-pointer text-4xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
+                        <a href="#corporate"  className={` cursor-pointer text-3xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
                             corporate
                             <FaCaretDown className="text-2xl" />
                         </a>
@@ -98,7 +98,7 @@ export default function Creatives() {
                         <Image  className="w-full absolute top-0 h-full object-fill " src={'/images/creatives/bts.png'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute  top-0  bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
-                        <a href="#bts" className={`${italiana.className} cursor-pointer text-4xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
+                        <a href="#bts" className={` cursor-pointer text-3xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
                         bts
                             <FaCaretDown className="text-2xl" />
                         </a>
@@ -108,7 +108,7 @@ export default function Creatives() {
                         <Image priority className="sm:w-full w-max absolute top-0 h-full object-fill " src={'/images/newhome/Isuzu Main.svg'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute  top-0  bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
-                        <a href="#automotive" className={`${italiana.className} cursor-pointer text-4xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
+                        <a href="#automotive" className={` cursor-pointer text-3xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
                         automotive industry
                             <FaCaretDown className="text-2xl" />
                         </a>
@@ -122,7 +122,7 @@ export default function Creatives() {
 
                 </div>
                 <div className=" p-8 flex flex-col gap-8">
-                    <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="food" className="text-end min-w-1/4">food and
+                    <div className={` text-5xl justify-end flex`}><h1 id="food" className="text-end min-w-1/4">food and
                         beverages</h1>
                     </div>
                     <Swiper
@@ -167,7 +167,7 @@ export default function Creatives() {
                     
                 </div>
                 <div className="p-8 flex flex-col gap-8">
-                    <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="fashion" className="text-end min-w-1/4">fashion</h1>
+                    <div className={` text-5xl justify-end flex`}><h1 id="fashion" className="text-end min-w-1/4">fashion</h1>
                     </div>
                     <Swiper
       className="w-full"
@@ -211,7 +211,7 @@ export default function Creatives() {
 
                 </div>
                 <div className="p-8 flex flex-col gap-8">
-                    <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="corporate" className="text-end min-w-1/4">corporate</h1>
+                    <div className={` text-5xl justify-end flex`}><h1 id="corporate" className="text-end min-w-1/4">corporate</h1>
                     </div>
                     <Swiper
       className="w-full"
@@ -255,7 +255,7 @@ export default function Creatives() {
 
                 </div>
                 {/* <div className="p-8 flex flex-col gap-8">
-                    <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="bts" className="text-end min-w-1/4">bts</h1>
+                    <div className={` text-5xl justify-end flex`}><h1 id="bts" className="text-end min-w-1/4">bts</h1>
                     </div>
                     <div className="flex flex-wrap justify-start gap-4">
                     <div className="w-max max-h-[25rem] h-[20rem]">
@@ -274,7 +274,7 @@ export default function Creatives() {
 
                 </div> */}
                 <div className="p-8 flex flex-col gap-8">
-                    <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="automotive" className="text-end min-w-1/4">automotive industry</h1>
+                    <div className={` text-5xl justify-end flex`}><h1 id="automotive" className="text-end min-w-1/4">automotive industry</h1>
                     </div>
                     <Swiper
       className="w-full"
@@ -314,7 +314,7 @@ export default function Creatives() {
                 </div>
 
                 <div className="p-8 flex flex-col gap-8">
-                    <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="automotive" className="text-end min-w-1/4">Reel Collabs</h1>
+                    <div className={` text-5xl justify-end flex`}><h1 id="automotive" className="text-end min-w-1/4">Reel Collabs</h1>
                     </div>
                     <Swiper
       className="w-full"
@@ -338,23 +338,23 @@ export default function Creatives() {
     >
       <SwiperSlide>
       <div className="w-[20rem] ">
-                    <video  className="w-full h-full object-cover  " muted autoPlay playsInline loop>
+                    <video onMouseOut={(e:any)=>e.target.pause()} onMouseOver={(e:any)=>e.target.play()}  onTouchStart={(e:any)=>e.target.play()} className="w-full h-full object-cover  " muted  playsInline loop>
                 <source src={`/images/newhome/Reel 5.mov`} type="video/mp4" />
             </video>
                             </div>
         </SwiperSlide>
       <SwiperSlide><div className="w-[20rem]  ">
-                            <video  className="w-full h-full object-cover  " muted autoPlay playsInline loop>
+                            <video onMouseOut={(e:any)=>e.target.pause()} onMouseOver={(e:any)=>e.target.play()}  onTouchStart={(e:any)=>e.target.play()}  className="w-full h-full object-cover  " muted  playsInline loop>
                 <source src={`/images/newhome/Reel 6.mov`} type="video/mp4" />
             </video>
                             </div></SwiperSlide>
       <SwiperSlide><div className="w-[20rem]  ">
-                            <video  className="w-full h-full object-cover  " muted autoPlay playsInline loop>
+                            <video onMouseOut={(e:any)=>e.target.pause()} onMouseOver={(e:any)=>e.target.play()}  onTouchStart={(e:any)=>e.target.play()}  className="w-full h-full object-cover  " muted  playsInline loop>
                 <source src={`/images/newhome/Reel 7.mov`} type="video/mp4" />
             </video>
                             </div></SwiperSlide>
                             <SwiperSlide><div className="w-[20rem]  ">
-                            <video  className="w-full h-full object-cover  " muted autoPlay playsInline loop>
+                            <video onMouseOut={(e:any)=>e.target.pause()} onMouseOver={(e:any)=>e.target.play()}  onTouchStart={(e:any)=>e.target.play()}  className="w-full h-full object-cover  " muted  playsInline loop>
                 <source src={`/images/newhome/Reel 8.mov`} type="video/mp4" />
             </video>
                             </div></SwiperSlide>

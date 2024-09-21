@@ -20,7 +20,7 @@
   }
 
 .telegraf{
-    font-family: telegraf;
+    font-family: telegraf !important;
 }
 
 .garet{
