@@ -62,7 +62,7 @@ export default function Creatives() {
     //   onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide >
-            <div className="relative creativeHover  flex justify-center items-center overflow-hidden min-min-w-[22rem] h-[22rem]">
+            <div className="relative creativeHover  flex justify-center items-center overflow-hidden min-w-[22rem] h-[22rem]">
                 <Image priority className="w-full absolute top-0 h-full object-fill " src={'/images/creatives/Food&Beverages.svg'} width={100} height={250} alt="individual" />
                 
                 <div className="absolute   bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
