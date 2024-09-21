@@ -59,7 +59,7 @@ export default function CaseStudies(){
                     <Image priority className="w-full h-full object-contain" src={'/images/newhome/casestudies/Rimjhim 3.svg'} alt="first" width={400} height={400}/>
                 </div>
             </div>
-
+            <hr className=" border-color-1"/>
             <div id="isuzu" className="flex sm:flex-nowrap flex-wrap sm:px-16 px-4 justify-center sm:gap-8">
                 <div className={`telegraf sm:w-[60%] flex flex-col    gap-4`}>
                     <h2 className="sm:text-6xl text-color-1 text-4xl font-bold">ISUZU (Repositioning)</h2>
@@ -88,16 +88,16 @@ export default function CaseStudies(){
                         <div className="sm:w-1/2 h-[15rem]">
                     <Image priority className="w-full h-full object-contain" src={'/images/newhome/casestudies/Isuzu 2.svg'} alt="first" width={400} height={400}/>
                 </div>
-                        </div>
-                        <div className="flex sm:flex-nowrap flex-wrap  justify-center sm:px-16 px-4 gap-4">
-                        <div className="telegraf sm:w-[60%] flex flex-col gap-4">
-                        {/* <p className="text-2xl font-bold">The Solution</p> */}
-                        <p className="text-lg font-bold">Additionally, targeting adventure enthusiasts, urban commuters, and families can help tailor marketing efforts to resonate with the needs of each group. Creating a distinct brand identity through a new tagline and a targeted marketing campaign can further enhance the D-Max's appeal and differentiate it from competitors. By implementing these strategies, we believe Isuzu can successfully reposition the D-Max and attract a wider audience, driving sales and market share.</p>
-                        </div>
-                        <div className="sm:w-1/2 h-[15rem]">
-                    <Image priority className="w-full h-full object-contain" src={'/images/newhome/casestudies/Isuzu 3.svg'} alt="first" width={400} height={400}/>
-                </div>
-                        </div>
+            </div>
+            <div className="flex sm:flex-nowrap flex-wrap  justify-center sm:px-16 px-4 gap-4">
+            <div className="telegraf sm:w-[60%] flex flex-col gap-4">
+            {/* <p className="text-2xl font-bold">The Solution</p> */}
+            <p className="text-lg font-bold">Additionally, targeting adventure enthusiasts, urban commuters, and families can help tailor marketing efforts to resonate with the needs of each group. Creating a distinct brand identity through a new tagline and a targeted marketing campaign can further enhance the D-Max's appeal and differentiate it from competitors. By implementing these strategies, we believe Isuzu can successfully reposition the D-Max and attract a wider audience, driving sales and market share.</p>
+            </div>
+            <div className="sm:w-1/2 h-[15rem]">
+        <Image priority className="w-full h-full object-contain" src={'/images/newhome/casestudies/Isuzu 3.svg'} alt="first" width={400} height={400}/>
+    </div>
+            </div>
         </div>
         
         </>
