@@ -130,18 +130,18 @@ export default function Home() {
 
         <div>
           <h2 className="telegraf text-2xl text-end pr-4">Brand Logo To Key Visuals</h2>
-          <div style={{background:"url('/images/newhome/banner/Background.svg')",backgroundSize:"cover"}} className="w-full flex justify-center items-center border-4 border-color-1">
+          <div  className="w-full flex justify-center items-center border-4 border-color-1">
           <div className="sm:h-[40rem] w-full">
-          <Image priority className="w-full h-full object-contain" src={'/images/newhome/banner/Phones.svg'} alt="first" width={400} height={400}/>
+          <Image priority className="w-full h-full object-cover" src={'/images/newhome/LP Banner 1.svg'} alt="first" width={400} height={400}/>
           </div>
           </div>
         </div>
 
         <div>
           <h2 className="telegraf text-2xl text-end pr-4">Brand Creatives</h2>
-          <div style={{background:"url('/images/newhome/banner/Banner 2 BG.svg')",backgroundSize:"cover"}} className="w-full flex justify-center items-center border-4 border-color-1">
+          <div  className="w-full flex justify-center items-center border-4 border-color-1">
           <div className="sm:h-[40rem] w-full">
-          <Image priority className="w-full h-full object-contain" src={'/images/newhome/banner/Banner 2 Pics.svg'} alt="first" width={400} height={400}/>
+          <Image priority className="w-full h-full object-cover" src={'/images/newhome/LP Banner 2.svg'} alt="first" width={400} height={400}/>
           </div>
           </div>
         </div>
