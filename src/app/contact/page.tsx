@@ -41,7 +41,7 @@ export default function ContactUs() {
                     </div>
                     <Input isInvalid={!!errors.email} errorMessage={errors.email?.message} {...register('email',{required:"Enter Email"})} type="email" classNames={{label:"!text-white"}} label="Email Address*" labelPlacement="outside" placeholder="Enter Email Address"/>
                     <Input isInvalid={!!errors.company} errorMessage={errors.company?.message} {...register('company',{required:"Enter Company"})} type="text" classNames={{label:"!text-white"}} label="Company*" labelPlacement="outside" placeholder="Enter Company"/>
-                    <Input isInvalid={!!errors.job} errorMessage={errors.job?.message} {...register('job',{required:"Enter Job Title"})} type="text" classNames={{label:"!text-white"}} label="Job Title*" labelPlacement="outside" placeholder="Enter Job Title"/>
+                    <Input isInvalid={!!errors.job} errorMessage={errors.job?.message} {...register('job')} type="text" classNames={{label:"!text-white"}} label="Job Title" labelPlacement="outside" placeholder="Enter Job Title"/>
                     <Input isInvalid={!!errors.phone} errorMessage={errors.phone?.message} {...register('phone',{required:"Enter Phone Number"})} type="text" classNames={{label:"!text-white"}} label="Phone*" labelPlacement="outside" placeholder="Enter Phone"/>
 
                     </div>
