@@ -42,7 +42,7 @@ export default function ContactUs() {
     }
     return (
         <>
-            <div className="flex flex-col  gap-16 sm:pt-20 pt-8 ">
+            <div className="flex flex-col  gap-16 sm:pt-20 pt-8 mb-8">
                 <div className="sm:px-16 px-4 flex flex-col gap-4">
                 <h2 className="sm:text-5xl text-color-1 text-4xl font-bold">Please get in touch and tell us a bit more about you:</h2>
                 <form onSubmit={handleSubmit(submitForm)} className="w-full flex flex-col gap-4" >
