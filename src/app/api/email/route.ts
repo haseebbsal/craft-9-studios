@@ -15,7 +15,7 @@ export async function POST(req:NextRequest){
     const { data, error } = await resend.emails.send({
       from: 'info@craft9studios.com',
       to: ['info@craft9studios.com'],
-      subject: 'Hello world',
+      subject: 'Customer Connect Info',
       react: EmailTemplate({firstName,secondName:lastName,job,phone,description,emailAddress:email,company}),
       replyTo:email
     });
