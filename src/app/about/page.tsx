@@ -8,41 +8,29 @@ const italiana = Italiana({
 export default function AboutUs() {
     return (
         <>
-            <div className="flex flex-col gap-20">
-                <div className="pt-16 px-8 flex-wrap px-10 flex gap-16 sm:gap-4 justify-center">
-                    <div className="sm:w-1/2 justify-center flex flex-col gap-2">
-                        <p className={`${italiana.className} text-5xl`}>Founder</p> 
-                        <p className="font-extralight">“The state of the advertising industry is a travesty. A brand’s hopes and dreams  turn into a file on the desk of an underpaid, overworked and over-caffeinated intern. There has to be another way. A way where we can dream together and create together.A tomorrow.We’re not here to play games, we’re here to change the game - of tomorrow, for tomorrow.”</p>
+            <div className="flex flex-col  gap-16 sm:pt-20 pt-8 ">
+             <div className="sm:px-16 px-4 flex sm:flex-nowrap flex-wrap gap-4">
+                <div className="sm:w-[60%] flex flex-col gap-4">
+                <h2 className="sm:text-6xl text-color-1 text-4xl font-bold">Who We Are</h2>
+                <p className="text-lg leading-10 font-bold">Welcome to Craft 9 Studios, where innovation meets artistry in the digital realm. As a premier digital and creative agency, we specialize in transforming visions into compelling realities through cutting-edge design, social media marketing, and immersive digital campaigns. Our team of passionate creators and strategic thinkers collaborate closely with clients to craft tailored solutions that not only infatuate audiences but also drive measurable results.</p>
+                <p className="text-lg leading-10 font-bold">At Craft 9 Studios, we believe that true engagement goes beyond aesthetics; it's about understanding the human mind. Our team of experts delves into the intricacies of consumer psychology to create campaigns that resonate deeply with your target audience. By understanding their motivations, desires, and behaviors, we craft experiences that not only capture attention but also inspire action.</p>
+                </div>
+                <div className="sm:w-1/2 h-[40rem]">
+                <Image priority className="w-full h-full object-contain bg-none" src={'/images/newhome/about-us/About Us Phone.svg'} alt="first" width={400} height={400}/>
+                </div>
+             </div>
+             <div style={{background:"url('/images/newhome/about-us/Rocket About Us.svg')",backgroundSize:"cover",backgroundPosition:"bottom"}} className="sm:px-16 px-4 w-full flex min-h-[40rem] sm:flex-nowrap flex-wrap gap-4">
+                <div className="sm:w-[60%] flex flex-col gap-16">
+                    <div className="w-full">
+                    <h2 className="sm:text-6xl text-color-1 text-4xl font-bold">Vision</h2>
+                    <p className="text-lg leading-10 font-bold">To redefine the digital landscape by pioneering innovative solutions that not only inspire but also understand and anticipate consumer desires.</p>
                     </div>
-                    <div className="w-[25rem]">
-                        <div className="h-[25rem]"><Image priority className="h-full w-full" src={'/images/about/Founder.png'} alt="founder" width={200} height={200} /></div>
-                        <div className="flex justify-between mt-2">
-                            <div>
-                                <p className="text-md">Apoorv Chaudhary</p>
-                                <p className="font-extralight text-xs">Creative Head</p>
-                            </div>
-                            <div className="flex gap-2">
-                                <FaInstagram className="text-2xl"/>
-                                <FaLinkedin className="text-2xl" />
-                            </div>
-                        </div>
+                    <div className="w-full">
+                    <h2 className="sm:text-6xl text-color-1 text-4xl font-bold">Mission</h2>
+                    <p className="text-lg leading-10 font-bold">We are committed to crafting transformative digital experiences that transcend the ordinary. By merging creativity with a deep understanding of human psychology, we empower brands to connect authentically with their audiences, drive meaningful engagement, and achieve sustainable growth in the ever-evolving digital world.</p>
                     </div>
                 </div>
-                <h1 className={`${italiana.className} text-center text-5xl`}> Our Team</h1>
-                <div className="flex gap-2 flex-wrap p-2 justify-center">
-                    <div className="h-[20rem] w-[18rem]">
-                        <Image priority className="h-full w-full" src={'/images/about/team-1.png'} alt="team member 1" width={200} height={200}/>
-                    </div>
-                    <div className="h-[20rem] w-[18rem]">
-                        <Image priority className="h-full w-full" src={'/images/about/team-2.png'} alt="team member 1" width={200} height={200} />
-                    </div>
-                    <div className="h-[20rem] w-[18rem]">
-                        <Image priority className="h-full w-full" src={'/images/about/team-3.png'} alt="team member 1" width={200} height={200} />
-                    </div>
-                    <div className="h-[20rem] w-[18rem]">
-                        <Image priority className="h-full w-full" src={'/images/about/team-4.png'} alt="team member 1" width={200} height={200} />
-                    </div>
-                </div>    
+             </div>
             </div>
         </>
     )

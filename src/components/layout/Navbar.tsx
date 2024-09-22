@@ -41,7 +41,7 @@ export default function Navbarr() {
                     </DropdownMenu>
                 </Dropdown>
                 {/* <Link href={'/creatives'}>Case Studies</Link> */}
-                <Link href={'/creatives'}>About Us</Link>
+                <Link href={'/about'}>About Us</Link>
                 <Link className=" border-2 border-color-1 p-2" href={'/contact'}>Get A Quote</Link>
                 <a target="_blank" href="https://www.instagram.com/thedigital_dhaba?igsh=MTBzdzR3djFqN2xrYw=="  className="text-[#19012b] bg-color-1 flex gap-2 items-center box-border text-lg p-[0.6rem] rounded-none "> <IoLogoInstagram className="text-2xl"/> The Digital Dhaba</a>
             </div>
@@ -88,7 +88,7 @@ export default function Navbarr() {
                         </DropdownItem> */}
                     </DropdownMenu>
                 </Dropdown>
-                <Link href={'/creatives'}>About Us</Link>
+                <Link href={'/about'}>About Us</Link>
                 <Link className=" border-2 border-color-1 p-2" href={'/contact'}>Get A Quote</Link>
                 <a target="_blank" href="https://www.instagram.com/thedigital_dhaba?igsh=MTBzdzR3djFqN2xrYw=="  className="text-[#19012b] bg-color-1 flex gap-2 items-center box-border text-lg p-[0.6rem] rounded-none "> <IoLogoInstagram className="text-2xl"/> The Digital Dhaba</a>
 
