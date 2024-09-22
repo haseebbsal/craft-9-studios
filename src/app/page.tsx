@@ -10,6 +10,7 @@ import { Navigation } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
+import Link from "next/link";
 const italiana=Italiana({
   weight: "400",
   subsets:['latin']
@@ -23,7 +24,7 @@ export default function Home() {
           <div className={`telegraf sm:w-1/2 flex flex-col sm:items-center sm:px-16 px-4 gap-4`}>
             <h2 className="sm:text-8xl text-4xl font-bold">Beyond Expected</h2>
             <p className="text-lg">As a premier digital and creative agency, we specialize in transforming visions into compelling realities through cutting-edge design, social media marketing, and immersive digital campaigns.</p>
-            <Button className="bg-black border-2 rounded-none border-[#e5e900] garet font-bold self-end text-white">READ MORE</Button>
+            <Link href={'/about'} className="bg-black py-2 px-4 border-2 rounded-none border-[#e5e900] garet font-bold self-end text-white">READ MORE</Link>
           </div>
           <div className="sm:w-1/2 h-[40rem]">
           <Image priority className="w-full h-full object-contain" src={'/images/newhome/First Section Picture.svg'} alt="first" width={400} height={400}/>
