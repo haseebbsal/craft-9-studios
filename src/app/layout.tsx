@@ -9,6 +9,8 @@ import Navbarr from "@/components/layout/Navbar";
 import AnimatedCursor from "react-animated-cursor";
 // import "react-multi-carousel/lib/styles.css";
 const inter = Inter({ subsets: ["latin"] });
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const metadata: Metadata = {
   title: "Craft 9 Studios",
@@ -57,7 +59,7 @@ export default function RootLayout({
       ]}
     />
         </div>
-        
+        <ToastContainer/>
       </body>
     </html>
   );

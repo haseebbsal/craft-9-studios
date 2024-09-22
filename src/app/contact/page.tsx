@@ -1,10 +1,12 @@
 'use client'
 import { Button, Checkbox, CheckboxGroup, Input, Textarea } from "@nextui-org/react";
+import axios from "axios";
 import { Italiana } from "next/font/google";
 import Image from "next/image";
 import { useState } from "react";
 import { FieldValues, useForm } from "react-hook-form";
 import { MdEmail } from "react-icons/md";
+import { toast } from "react-toastify";
 const italiana = Italiana({
     weight: "400",
     subsets: ['latin']
@@ -24,8 +26,19 @@ export default function ContactUs() {
             description:""
         }
     })
-    function submitForm(e:FieldValues){
+    async function submitForm(e:FieldValues){
         console.log('data',e)
+        const postForm=await axios.post('/api/email',e)
+        toast.success('Contact Info Sent', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
     }
     return (
         <>
@@ -41,7 +54,7 @@ export default function ContactUs() {
                     </div>
                     <Input isInvalid={!!errors.email} errorMessage={errors.email?.message} {...register('email',{required:"Enter Email"})} type="email" classNames={{label:"!text-white"}} label="Email Address*" labelPlacement="outside" placeholder="Enter Email Address"/>
                     <Input isInvalid={!!errors.company} errorMessage={errors.company?.message} {...register('company',{required:"Enter Company"})} type="text" classNames={{label:"!text-white"}} label="Company*" labelPlacement="outside" placeholder="Enter Company"/>
-                    <Input isInvalid={!!errors.job} errorMessage={errors.job?.message} {...register('job')} type="text" classNames={{label:"!text-white"}} label="Job Title" labelPlacement="outside" placeholder="Enter Job Title"/>
+                    <Input isInvalid={!!errors.job} errorMessage={errors.job?.message} {...register('job',)} type="text" classNames={{label:"!text-white"}} label="Job Title" labelPlacement="outside" placeholder="Enter Job Title"/>
                     <Input isInvalid={!!errors.phone} errorMessage={errors.phone?.message} {...register('phone',{required:"Enter Phone Number"})} type="text" classNames={{label:"!text-white"}} label="Phone*" labelPlacement="outside" placeholder="Enter Phone"/>
 
                     </div>

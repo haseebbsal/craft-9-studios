@@ -105,7 +105,7 @@ export default function Creatives() {
                 </div>
                     </div></SwiperSlide> */}
                     <SwiperSlide><div className="relative creativeHover overflow-hidden flex justify-center items-center w-max h-[22rem]">
-                        <Image priority className="w-full h-full object-fill " src={'/images/newhome/Isuzu Main.svg'} width={100} height={250} alt="individual" />
+                        <Image priority className="w-full h-full object-fill " src={'/images/newhome/Isuzu.svg'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute  top-0  bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
                         <a href="#automotive" className={` cursor-pointer text-3xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
