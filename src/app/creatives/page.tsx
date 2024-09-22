@@ -26,7 +26,7 @@ const italiana = Italiana({
 export default function Creatives() {    
     return (
         <>
-            <div className="flex test telegraf flex-col gap-16">
+            <div className="flex test telegraf flex-col gap-16 mb-8">
                 <div className="pt-16  sm:pl-44">
                     <div className="flex gap-2 justify-center sm:justify-start items-center">
                         <div className="flex flex-col">

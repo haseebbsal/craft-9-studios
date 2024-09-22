@@ -19,7 +19,7 @@ const italiana=Italiana({
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col gap-24 sm:pt-20 pt-8 ">
+      <div className="flex flex-col gap-24 sm:pt-20 pt-8 mb-8">
         <div className="flex sm:flex-nowrap flex-wrap items-center sm:gap-4">
           <div className={`telegraf sm:w-1/2 flex flex-col sm:items-center sm:px-16 px-4 gap-4`}>
             <h2 className="sm:text-8xl text-4xl font-bold">Beyond Expected</h2>

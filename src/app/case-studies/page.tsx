@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function CaseStudies(){
     return (
         <>
-        <div className="flex flex-col  gap-16 sm:pt-20 pt-8 ">
+        <div className="flex flex-col  gap-16 sm:pt-20 pt-8 mb-8">
             <div id="rimjhim" className="flex sm:flex-nowrap flex-wrap  sm:gap-4">
                 <div className={`telegraf sm:w-[60%] flex flex-col   sm:px-16 px-4 gap-4`}>
                     <h2 className="sm:text-6xl text-color-1 text-4xl font-bold">Rimjhim (Rebranding)</h2>

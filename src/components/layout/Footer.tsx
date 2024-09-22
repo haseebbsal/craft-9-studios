@@ -26,7 +26,7 @@ export default function Footer() {
         // console.log('changed')
     },[])
     return (
-        <footer className="mt-8  pb-8 border-t-4 border-color-1 pt-4">
+        <footer className="pb-8 border-t-4 border-color-1 pt-4">
             <div className="flex px-4 flex-wrap gap-4 justify-center sm:justify-between">
                 <div className="flex gap-2 text-2xl text-color-1">
                     <a href="https://www.facebook.com/profile.php?id=61559895543212&mibextid=ZbWKwL" target="_blank"><FaFacebook/></a>

@@ -19,8 +19,8 @@ export default function AboutUs() {
                 <Image priority className="w-full h-full object-contain bg-none" src={'/images/newhome/about-us/About Us Phone.svg'} alt="first" width={400} height={400}/>
                 </div>
              </div>
-             <div style={{background:"url('/images/newhome/about-us/Rocket About Us.svg')",backgroundSize:"cover",backgroundPosition:"bottom"}} className="sm:px-16 px-4 w-full flex min-h-[40rem] sm:flex-nowrap flex-wrap gap-4">
-                <div className="sm:w-[60%] flex flex-col gap-16">
+             <div  className="sm:px-16 relative px-4 w-full flex min-h-[40rem] sm:flex-nowrap flex-wrap gap-4">
+                <div className="sm:w-[60%] flex flex-col gap-16 relative z-[3]">
                     <div className="w-full">
                     <h2 className="sm:text-6xl text-color-1 text-4xl font-bold">Vision</h2>
                     <p className="text-lg leading-10 font-bold">To redefine the digital landscape by pioneering innovative solutions that not only inspire but also understand and anticipate consumer desires.</p>
@@ -30,6 +30,7 @@ export default function AboutUs() {
                     <p className="text-lg leading-10 font-bold">We are committed to crafting transformative digital experiences that transcend the ordinary. By merging creativity with a deep understanding of human psychology, we empower brands to connect authentically with their audiences, drive meaningful engagement, and achieve sustainable growth in the ever-evolving digital world.</p>
                     </div>
                 </div>
+                <Image className="absolute w-full h-full object-cover top-0 left-0 z-[2] object-right" alt="rocket" height={600} width={1600} src={'/images/newhome/about-us/Rocket updated.svg'}/>
              </div>
             </div>
         </>
