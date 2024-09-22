@@ -33,6 +33,7 @@ export default function RootLayout({
           <Loader/>
         </div>
         </UiProvider>
+        <div className="sm:block hidden">
         <AnimatedCursor
       innerSize={15}
       outerSize={15}
@@ -55,6 +56,8 @@ export default function RootLayout({
         '.link'
       ]}
     />
+        </div>
+        
       </body>
     </html>
   );

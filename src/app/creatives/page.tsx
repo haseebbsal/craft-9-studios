@@ -63,7 +63,7 @@ export default function Creatives() {
     >
       <SwiperSlide >
             <div className="relative creativeHover  flex justify-center items-center overflow-hidden sm:min-w-[22rem] h-[22rem]">
-                <Image priority className="sm:w-full w-max absolute top-0 h-full object-fill " src={'/images/creatives/Food&Beverages.svg'} width={100} height={250} alt="individual" />
+                <Image priority className="w-full  h-full object-fill " src={'/images/creatives/Food&Beverages.svg'} width={100} height={250} alt="individual" />
                 
                 <div className="absolute   bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
                 <a href="#food" className={` cursor-pointer text-3xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
@@ -75,7 +75,7 @@ export default function Creatives() {
             </div>
         </SwiperSlide>
       <SwiperSlide><div className="relative creativeHover overflow-hidden flex justify-center items-center sm:min-w-[22rem] h-[22rem]">
-                        <Image priority className="sm:w-full w-max absolute top-0 h-full object-fill " src={'/images/creatives/Fashion.svg'} width={100} height={250} alt="individual" />
+                        <Image priority className="w-full  h-full object-fill " src={'/images/creatives/Fashion.svg'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute   bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
                         <a href="#fashion" className={` cursor-pointer text-3xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
@@ -85,7 +85,7 @@ export default function Creatives() {
                 </div>
                     </div></SwiperSlide>
       <SwiperSlide><div className="relative creativeHover overflow-hidden flex justify-center items-center sm:min-w-[22rem] h-[22rem]">
-                        <Image priority className="sm:w-full w-max absolute top-0 h-full object-fill " src={'/images/creatives/Corporate.svg'} width={100} height={250} alt="individual" />
+                        <Image priority className="w-full  h-full object-fill " src={'/images/creatives/Corporate.svg'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute  top-0  bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
                         <a href="#corporate"  className={` cursor-pointer text-3xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
@@ -95,7 +95,7 @@ export default function Creatives() {
                 </div>
                     </div></SwiperSlide>
       {/* <SwiperSlide><div className="relative flex creativeHover overflow-hidden justify-center items-center sm:min-w-[22rem] h-[22rem]">
-                        <Image  className="w-full absolute top-0 h-full object-fill " src={'/images/creatives/bts.png'} width={100} height={250} alt="individual" />
+                        <Image  className="w-full  h-full object-fill " src={'/images/creatives/bts.png'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute  top-0  bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
                         <a href="#bts" className={` cursor-pointer text-3xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
@@ -104,8 +104,8 @@ export default function Creatives() {
                         </a>
                 </div>
                     </div></SwiperSlide> */}
-                    <SwiperSlide><div className="relative creativeHover overflow-hidden flex justify-center items-center sm:min-w-[22rem] h-[22rem]">
-                        <Image priority className="sm:w-full w-max absolute top-0 h-full object-fill " src={'/images/newhome/Isuzu Main.svg'} width={100} height={250} alt="individual" />
+                    <SwiperSlide><div className="relative creativeHover overflow-hidden flex justify-center items-center w-max h-[22rem]">
+                        <Image priority className="w-full h-full object-fill " src={'/images/newhome/Isuzu Main.svg'} width={100} height={250} alt="individual" />
                         
                         <div className="absolute  top-0  bg-[#000000cf] left-0 w-full h-full  items-center justify-center">
                         <a href="#automotive" className={` cursor-pointer text-3xl text-center !font-semibold flex items-center flex-col gap-2 z-[1212]`}>
